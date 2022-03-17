@@ -7,7 +7,8 @@ INCLUDE = -I../include \
 		  -I../lib/misc
 LDFLAGS = -L../nand/ -lnand \
 		  -L../lib/misc/ -lmisc \
-		  -L../lib/brotli/ -lbrotli
+		  -L../lib/brotli/ -lbrotli \
+		  -lm
 CFLAGS += -O0 -g
 
 define make_subdir

@@ -134,9 +134,9 @@ static BROTLI_INLINE double FastLog2(size_t v) {
    * function defined, so we use log() and a multiplication instead. */
   return log((double)v) * LOG_2_INV;
 #else
-  //return log2((double)v);
+  return log2((double)v);
   // 用换底公式
-    return log((double)v)/log((double)2);
+  // return log((double)v)/log((double)2);
 #endif
 }
 
