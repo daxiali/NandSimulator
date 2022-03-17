@@ -10,7 +10,7 @@ LIB_A = libbrotli.a
 EXECUTABLE = brotli
 DIRS = $(OBJDIR)/common $(OBJDIR)/dec $(OBJDIR)/enc \
        $(OBJDIR)/tools $(BINDIR)/tmp
-CFLAGS += -O2
+CFLAGS += -O0 -g
 
 all: $(EXECUTABLE)
 	@:

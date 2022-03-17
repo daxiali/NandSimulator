@@ -6,7 +6,7 @@ INCLUDE = -I../../include \
 		  -I../brotli/include
 LDFLAGS = -L../brotli/ -lbrotli
 LIB_A = libmisc.a
-CFLAGS += -O3
+CFLAGS += -O0 -g
 
 .PHONY: all lib clean
 

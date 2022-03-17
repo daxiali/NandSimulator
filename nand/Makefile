@@ -7,7 +7,7 @@ INCLUDE = -I../include \
 LDFLAGS = -L../lib/misc/ -lmisc \
 		  -L../lib/brotli/ -lbrotli
 LIB_A = libnand.a
-CFLAGS += -O3
+CFLAGS += -O0 -g
 
 .PHONY: all lib clean
 

@@ -19,6 +19,7 @@
  */
 
 #include <common.h>
+#include <time.h>
 #include "nand.h"
 
 #define STORE_CMD_TO_FILE
